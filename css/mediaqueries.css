@@ -1,0 +1,94 @@
+@media screen and (max-width: 1075px) {
+    .contact-container {
+        margin: 0 auto;
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 916px) {
+    .contact-container {
+        margin: 0 auto;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 728px) {
+    .contact-container {
+        margin: 0 auto;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .logo {
+        margin-left: 20px;
+    }
+    .home .content {
+        margin-left: 40px;
+    }
+    .servizi, .contatti {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .serviziTitle h1, .testimonianzeTitle h1, .contattiTitle h1 {
+        font-size: 3.2em;
+        text-align: center;
+    }
+    .serviziTitle p, .testimonianzeTitle p, .contattiTitle p {
+        font-size: 1.2em;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .sendEmailSection {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .serviziTitle h1, .testimonianzeTitle h1, .contattiTitle h1 {
+        font-size: 2.3em;
+    }
+    .contatti {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .servizi {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    row {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 324px) {
+    .serviziTitle h1, .contattiTitle h1 {
+        font-size: 50px;
+    }
+    .serviziTitle p, .contattiTitle p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 311px) {
+    .serviziTitle h1, .testimonianzeTitle h1, .contattiTitle h1 {
+        font-size: 2em;
+    }
+}
+
+
